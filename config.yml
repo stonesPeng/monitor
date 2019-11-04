@@ -1,0 +1,23 @@
+server:
+  enable: true
+  addr: "0.0.0.0:80"
+  token: "12345678901"
+client:
+  enable: false
+  url: ""
+  method: "POST"
+memory:
+  enable: false
+  limit: 42
+  frequcey: 1000
+disk:
+  enable: false
+  frequcey: 1000
+cpu:
+  enable: false
+  limit: 64
+  frequcey: 1000
+docker:
+  enable: false
+  frequcey: 1000 # frequcey in ms
+  containers: []
